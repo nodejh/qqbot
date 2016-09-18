@@ -1,0 +1,54 @@
+{
+  "name": "smartqq-bot",
+  "version": "2.1.0",
+  "description": "SmartQQ robot powered by node.js",
+  "main": "main.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/floatinghotpot/qqbot.git"
+  },
+  "keywords": [
+    "qqbot",
+    "hubot",
+    "robot",
+    "qq",
+    "webqq",
+    "smartqq",
+    "tencent",
+    "rjfun"
+  ],
+  "author": "xu han <xhan87@gmail.com>",
+  "contributors": [
+    {
+      "name": "xu han",
+      "email": "<xhan87@gmail.com"
+    },
+    {
+      "name": "Raymond Xie",
+      "email": "rjfun.mobile@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/floatinghotpot/floatinghotpot/issues"
+  },
+  "dependencies": {
+    "js-yaml": ">= 3.0.0",
+    "log": ">= 1.4.0",
+    "minimist": "^1.2.0",
+    "underscore": "^1.8.3"
+  },
+  "engines": {
+    "node": ">= 0.10.x",
+    "npm": ">= 1.1.x"
+  },
+  "devDependencies": {},
+  "analyze": false,
+  "preferGlobal": "true",
+  "bin": {
+    "qqbot": "main.js",
+    "smartqq-bot": "main.js",
+    "qq": "qq.js"
+  }
+}
